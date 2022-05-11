@@ -1,0 +1,23 @@
+#welcome {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+#welcome h1{
+    font-family: 'bold';
+}
+
+#welcome a {
+    display: block;
+    width: 150px;
+    margin: 20px auto 0 auto;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-family: 'bold';
+    font-size: 100%;
+    color: white;
+    background-color: #36d7b7;
+    text-decoration: none;
+}
