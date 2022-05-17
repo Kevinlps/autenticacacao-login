@@ -38,12 +38,12 @@ const onSubmitCreateUserForm = (event: Event) => {
 
 const renderCreateUserForm = (container: HTMLElement) => {
     const htmlContent = `
-        <form id='create-user-form'>
-            <div class="form-panel">
+        <form >
+            <div >
                 <label for"email">E-mail</label>
                 <input type="email" id="email" pleaceholder="E-mail" required>
             </div>
-            <div class="form-panel">
+            <div >
                 <label for"password">Senha</label>
                 <input type="password" id="password" pleaceholder="Senha" required>
             </div>
@@ -51,7 +51,7 @@ const renderCreateUserForm = (container: HTMLElement) => {
         </form>
     `
     container.innerHTML = htmlContent
-    const createUserForm = <HTMLFormElement>$('#create-user-form')
+    const createUserForm = <HTMLFormElement>$('form')
     createUserForm.onsubmit = onSubmitCreateUserForm
 }
 
