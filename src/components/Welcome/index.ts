@@ -5,6 +5,7 @@ const renderWelcomePanel = (container: HTMLElement) => {
     <div id="welcome">
       <h1>Bem vindo!</h1>
       <a href="logout.html">Sair</a>
+      <a href="sobre.html">Sobre</a>
     </div>
   `
 

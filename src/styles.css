@@ -12,7 +12,7 @@ body{
     src: url(../fonts/Ubuntu-Regular.ttf);
 }
 
-#create-user-link{
+#redirect-link{
     background-color: #4ecdc4;
     width: 400px;
     display: block;
@@ -81,4 +81,27 @@ form button {
     text-align: center;
     padding: 10px 0;
     border-radius: 10px;
+}
+
+#sobre p {
+    font-family: 'regular';
+    text-align: center;
+
+}
+
+#sobre a {
+    background-color: #4ecdc4;
+    width: 400px;
+    display: block;
+    margin: 30px auto ;
+    text-align: center;
+    color: white;
+    font-family: 'bold';
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+#sobre span {
+    font-family: 'bold';
+    justify-content: center;
 }

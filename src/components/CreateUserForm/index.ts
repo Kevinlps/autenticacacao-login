@@ -2,6 +2,8 @@ import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth'
 
 import { firebaseApp } from '../../config/firebase'
 
+import './styles.css'
+
 const $ = document.querySelector.bind(document)
 
 const onSubmitCreateUserForm = (event: Event) => {
@@ -14,7 +16,7 @@ const onSubmitCreateUserForm = (event: Event) => {
     createUserWithEmailAndPassword(auth,email,password)
         .then((_) => {
             const loginLink = <HTMLAnchorElement>document.createElement('a')
-            loginLink.id = 'login-link'
+            loginLink.id = 'redirect-link'
             loginLink.innerText = 'Clique aqui para fazer o login'
             loginLink.href = 'login.html'
 
